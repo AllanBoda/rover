@@ -28,7 +28,7 @@ function apertaEsquerda() {
     document.getElementById("lado").innerHTML = "Direção= " + Result;
 
     if(table != 1 && table != 5 && table != 9 && table != 13){
-        table+=1
+        table-=1
     }
    
 }
@@ -44,7 +44,7 @@ function apertaCima() {
     document.getElementById("lado").innerHTML = "Direção= " + Result;
 
     if(table != 1 && table != 2 && table != 3 &&table != 4){
-        table+=1
+        table-=4
     }
 
 }
@@ -60,7 +60,7 @@ function apertaBaixo() {
     document.getElementById("lado").innerHTML = "Direção= " + Result;
 
     if(table != 13 && table != 14 && table != 15 && table != 16){
-        table+=1
+        table+=4
     }
     
 }
