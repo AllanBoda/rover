@@ -66,7 +66,7 @@ function apertaBaixo() {
 }
 
 function colocaResult() {
-    document.getElementById("img").src = "C:\Users\lucas.gomes\Desktop\Proj\Table-"+table+".jpg";
+    document.getElementById("rover").src="Imagens\Table"+table+".png";
 
     document.getElementById("resultado").innerHTML = "Lugar="+table;
 }
