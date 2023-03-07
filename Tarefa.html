@@ -6,40 +6,42 @@
   </head>
 <body>
     <script src="TAREFAJAVA.js"></script>
-    
-    
-    <img id="rover" src="Imagens\Table1.png">
-    
+<div id="buttoncontainer">    
 
+<div id="rover">
+    <img src="Table1.png" id="roverIMG">
+</div>
+
+<div id="Teclad">
 <!-- Cima -->
- <div>
+ <div id="cima" class="button">
      <button onclick="apertaCima()">
          <h1>▲</h1>   
     </button>
 </div>
 <!-- Esquerda e Direita -->
 <div>
-    <div>
+    <div id="esquerda" class="button">
         <button onclick="apertaEsquerda()">
             <h1>◄</h1>   
         </button>
     </div>
-    <div>
+    <div id="direita" class="button">
         <button onclick="apertaDireita()">
             <h1>►</h1>   
         </button>
     </div>
 </div>
 <!-- Baixo -->
- <div>
+ <div id="baixo" class="button">
      <button onclick="apertaBaixo()">
             <h1>▼</h1>   
     </button>
  </div>
-
+</div>
 <!-- Começar -->
 
-<div>
+<div id="Inicia" >
     <button onclick="colocaResult()">
         <h1>
             START
@@ -49,17 +51,17 @@
 
 <!-- Resultado -->
 
-<div>
+<div id="final">
     <p id="lado">
-            Direção=
+            Direção =
     </p>
-</div>
-<div>
-    <p id="resultado">
-            Lugar=
-    </p>
-</div>
 
+
+    <p id="resultado">
+            Lugar = 1
+    </p>
+
+</div>
 
 
 </body>
