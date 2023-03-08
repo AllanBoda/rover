@@ -1,4 +1,4 @@
-let Result="";
+var Result="";
 var table=1;
 
 function apertaDireita() {
